@@ -5,8 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Sarah Thiesen</title>
 	<link rel="stylesheet" href="style.css" />
+	<!-- Google Font Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/60b36a2de6.js" crossorigin="anonymous"></script>
+	<!-- fancybox -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 </head>
 
 <body>
@@ -56,6 +61,8 @@
 			
 			<section id="cat-pics">
 				<h2 class="headline">Cat Pics</h2>
+				<a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png" style="width:300px;"></a>
+				<a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png" style="width:300px;"></a>
 			</section>
 	
 		</div>
@@ -67,5 +74,12 @@
 
 
 </body>
+
+<script type="text/javascript">
+
+	Fancybox.bind("[data-fancybox]", {
+  // Your options go here
+	});
+</script>
 
 </html>
