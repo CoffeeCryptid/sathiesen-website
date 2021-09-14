@@ -3,6 +3,8 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Website von Sarah Thiesen">
+	<meta name="keywords" content="Sarah, Thiesen, Sarah Thiesen, Sarah Susanne Thiesen">
 	<meta name="viewport" content="width=device-width" initial-scale=1.0>
 	<title>Sarah Thiesen</title>
 	<link rel="stylesheet" href="style.css" />
@@ -10,23 +12,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/60b36a2de6.js" crossorigin="anonymous"></script>
-	<!-- fancybox -->
-	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
 	<header>
 		<div class="header-content">
-			<div>
-				<h1 class="header-element">Sarah Thiesen</h1>
-				<nav class="nav header-element">
-					<ul>
-						<li class="header-element"><a href="#about-me">About me</a></li>
-						<li class="header-element"><a href="#portfolio">Portfolio</a></li>
-						<li class="header-element"><a href="#cat-pics">Cat Pics</a></li>
-					</ul>
-				</nav>
+			<div style="margin: auto;">
+				<h1 class="header-element" style="font-size: 2em;">Hier entsteht bald irgendwas...</h1>
 			</div>
 		</div>
 	</header>
@@ -34,65 +28,33 @@
 	<div class = "main">
 		<div class="main-content">
 			<section>
-				<a class="anchor" id="about-me"></a>
-				<h2 class="headline">About me</h2>
 				<div class="flex">
-					<div id="profile" class="prof-column">
-						<img class="icon" src="img/icon.png" alt="It me">
+					<div id="profile" class="prof-column" style="margin:auto;">
+						<img id="icon" src="img/icon-sleep.png" alt="It me">
+						<h2 class="headline">Sarah Thiesen</h2>
 						<div>
 							<ul class="fa-ul">
 								<li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span><a href="https://www.openstreetmap.org/?mlat=50.8750&mlon=6.6773#map=12/50.8750/6.6773">Kerpen, NRW</a>
-								<li><span class="fa-li"><i class="fas fa-at"></i></span><a href="mailto:sathiesen@gmail.com">Contact</a></li>
+								<li><span class="fa-li"><i class="fas fa-at"></i></span><a href="mailto:sathiesen@gmail.com">Email</a></li>
 								<li><span class="fa-li"><i class="fab fa-github"></i></span><a href="https://github.com/CoffeeCryptid">GitHub</a></li>
 							</ul>
 						</div>
 					</div>
-	
-					<div id="about-text", class="prof-column">
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-					</div>
 				</div>
 			</section>
-			
-			<section>
-				<a class="anchor" id="portfolio"></a>
-				<h2 class="headline">Portfolio</h2>
-				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p> 
-				<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-				<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer</p>
-			</section>
-			
-			<section>
-				<a class="anchor" id="cat-pics"></a>
-				<h2 class="headline">Cat Pics</h2>
-				<div class="flex cat-gallery">
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-					<div class="catpic"><a data-fancybox="gallery" data-caption="This is a test", href="img/icon.png"><img src="img/icon.png"></a></div>
-				</div>
-			</section>
-	
 		</div>
-		
-			<footer>
+		<footer style="position:fixed; bottom: 0;">
 			<p>© 2021 Sarah Thiesen</p>
-			</footer>
+		</footer>
 	</div>
-
-
+	
+	<script language="javascript">
+		$(document).ready(function(){
+    		$("img").click(function(){
+				$(this).attr("src", "img/icon-2.png");
+			});    
+		});
+	</script>
 </body>
-
-<script type="text/javascript">
-
-	Fancybox.bind("[data-fancybox]", {
-  // Your options go here
-	});
-</script>
 
 </html>
